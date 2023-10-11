@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Alexis{
+    max-width: 100%;
+    display: flex;
+    background: #bdd1fc;
+    justify-content: space-between;
+}
+.img img{
+    width: 150px;  
+    border-radius: 12px;
+    border: 2px solid black;
+    margin: 50px;
+}
+.txt{
+    margin: 50px;
+}
+.txt h4{
+    color: #008cff;
+}
+
+.txt p{
+    margin-top: 15px;
+    list-style: none;
+    line-height: 1.9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
