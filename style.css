@@ -9,21 +9,21 @@ body{
 }
 .main{
     width: 968px;
-    transform: translateX(180px);
+    transform: translateX(200px);
     border: 1px solid black;
 }
 .Alexis{
-    max-width: 100%;
     display: flex;
     background: #bdd1fc;
-    
     justify-content: center;
+    align-items: center;
 }
 .img img{
     width: 150px;  
     border-radius: 12px;
     border: 2px solid black;
-    margin: 50px;
+    margin: 55px;
+    margin-top: 80px;
 }
 .txt{
     margin: 50px;
@@ -42,7 +42,8 @@ body{
     display: flex;
     flex-flow: row wrap;
     background-color: #5a57d89d;
-    padding-left: 10px;
+    padding: 20px;
+    height: 20vh;
 }
 .columnss i{
     color: rgb(25, 0, 255);
@@ -50,16 +51,21 @@ body{
 }
 .column{
     flex: 1;
-    padding: 10px;
     color: #fff;
     transition: 0.3s;
-    justify-content: space-around;
+    margin-left: 5px;
+}
+.column2{
+    flex: 1;
+    color: #fff;
+    transition: 0.3s;
+    margin-left: 238px;
 }
 .columnss a{
    text-decoration: none;
    color: black;
    cursor: pointer;
-   padding-left: 7px;
+   padding-left: 8px;
    font-weight: 200;
 }
 
@@ -72,6 +78,8 @@ body{
     border-bottom: 3px solid #008cff;
     width: 60%;
     color: #008cff;
+    margin-top: 3px;
+    font-size: 30px;
 }
 .experience h3{
     padding-top: 5px;
