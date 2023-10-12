@@ -4,11 +4,20 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    max-width: 100%;
+}
+.main{
+    width: 968px;
+    transform: translateX(180px);
+    border: 1px solid black;
+}
 .Alexis{
     max-width: 100%;
     display: flex;
     background: #bdd1fc;
-    justify-content: space-between;
+    
+    justify-content: center;
 }
 .img img{
     width: 150px;  
@@ -29,3 +38,118 @@
     line-height: 1.9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.columnss {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #5a57d89d;
+    padding-left: 10px;
+}
+.columnss i{
+    color: rgb(25, 0, 255);
+    padding-right: 5px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+    color: #fff;
+    transition: 0.3s;
+    justify-content: space-around;
+}
+.columnss a{
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   padding-left: 7px;
+   font-weight: 200;
+}
+
+.experience{
+    float: left;
+    margin: 20px;
+
+}
+.experience h1{
+    border-bottom: 3px solid #008cff;
+    width: 60%;
+    color: #008cff;
+}
+.experience h3{
+    padding-top: 5px;
+}
+.experience h2{
+    color: #008cff;
+}
+.heading{
+    color: #008cff;
+}
+.experience a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+    padding-left: 5px;
+}
+li{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.voko{
+    margin-top: 30px;
+    color: black;
+    font-size: 25px;
+}
+.date{
+    color: #008cff;
+}
+.details{
+    display: flex;
+    font-weight: 200;
+}
+.eduaction{
+    position: relative;
+    left: 20px;
+    margin: 20px;
+}
+.eduaction h1{
+    color: #008cff;
+    border-bottom: 2px solid #008cff;
+    width: 70%;
+}
+.eduaction h3{
+    padding-top: 5px;
+    font-weight: 100;
+}
+.eduaction p{
+    color: #000000b7;
+}
+.eduaction a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.856);
+    font-weight: 100;
+    padding-left: 5px;
+}
+.data{
+    padding-top: 5px;
+    font-weight: 100;
+}
+.louisiana{
+    color: black;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 100;
+}
+.eduaction .bech{
+    font-weight: 100;
+}
+.eduaction .baton{
+    color: #00000073;
+    font-weight: 100;
+    margin: 2px;
+}
+.eduaction .awards{
+    margin-top: 30px;
+    width: 40%;
+}
+.eduaction .carl{
+    margin-top: 30px;
+}
+
