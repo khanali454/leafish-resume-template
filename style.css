@@ -8,8 +8,13 @@ body{
     max-width: 100%;
 }
 .main{
+    margin: 0 auto;
     width: 968px;
+<<<<<<< HEAD
     transform: translateX(200px);
+=======
+    max-width: 968px;
+>>>>>>> 054d7d7d566f5b6c6ae20fa8fa14d527b18e41c5
     border: 1px solid black;
 }
 .Alexis{
