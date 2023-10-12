@@ -11,6 +11,8 @@ body{
     width: 968px;
     transform: translateX(18px);
     border: 1px solid black;
+    max-width: 968px;
+    transform: translateX(200px);
 }
 .Alexis{
     display: flex;
@@ -89,15 +91,22 @@ body{
 }
 .heading{
     color: #008cff;
+    font-style: italic;
+}
+.eduaction .Overview{
+ margin-top: 7px;
 }
 .experience a{
     text-decoration: none;
     margin-top: 15px;
     color: black;
     padding-left: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
 }
 li{
-    padding-top: 10px;
+    padding-top: 5px;
     line-height: 1.5;
 }
 .voko{
@@ -107,10 +116,14 @@ li{
 }
 .date{
     color: #008cff;
+    font-style: italic;
 }
 .details{
     display: flex;
     font-weight: 200;
+}
+.details i{
+    color: #008cff;
 }
 .eduaction{
     position: relative;
@@ -134,10 +147,14 @@ li{
     color: rgba(0, 0, 0, 0.856);
     font-weight: 100;
     padding-left: 5px;
+    font-style: italic;
 }
 .data{
     padding-top: 5px;
     font-weight: 100;
+}
+.eduaction .date{
+    color: #008cff;
 }
 .louisiana{
     color: black;
@@ -157,7 +174,14 @@ li{
     margin-top: 30px;
     width: 40%;
 }
+.eduaction .jp{
+    margin-top: 30px;
+}
 .eduaction .carl{
     margin-top: 30px;
+}
+.eduaction .txt1{
+  margin-top: 2px;
+  
 }
 
