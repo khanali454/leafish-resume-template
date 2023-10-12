@@ -1,4 +1,4 @@
-*{
+    *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,13 +8,8 @@ body{
     max-width: 100%;
 }
 .main{
-    margin: 0 auto;
     width: 968px;
-<<<<<<< HEAD
-    transform: translateX(200px);
-=======
-    max-width: 968px;
->>>>>>> 054d7d7d566f5b6c6ae20fa8fa14d527b18e41c5
+    transform: translateX(18px);
     border: 1px solid black;
 }
 .Alexis{
@@ -28,10 +23,10 @@ body{
     border-radius: 12px;
     border: 2px solid black;
     margin: 55px;
-    margin-top: 80px;
+    transform: translateY(25px);
 }
 .txt{
-    margin: 50px;
+    margin: 25px;
 }
 .txt h4{
     color: #008cff;
