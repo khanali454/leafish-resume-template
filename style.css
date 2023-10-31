@@ -8,100 +8,111 @@ body{
     max-width: 100%;
     height: auto;
 }
-.main{
+.leafish_main{
     width: 968px;
     transform: translateX(18px);
     border: 1px solid black;
     max-width: 968px;
     transform: translateX(200px);
 }
-.Alexis{
+.leafish_Alexis{
     display: flex;
     background: #bdd1fc;
     justify-content: center;
     align-items: center;
 }
-.img img{
+.leafish_img img{
     width: 150px;  
     border-radius: 12px;
     border: 2px solid black;
     margin: 55px;
     transform: translateY(25px);
 }
-.txt{
+.leafish_txt{
     margin: 25px;
 }
-.txt h4{
+.leafish_txt h4{
     color: #008cff;
 }
 
-.txt p{
+.leafish_txt p{
     margin-top: 15px;
     list-style: none;
     line-height: 1.9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 0!important;
 }
-.columnss {
+.leafish_columnss{
     display: flex;
     flex-flow: row wrap;
+    text-decoration: none;
     background-color: #5a57d89d;
     padding: 20px;
     height: 20vh;
 }
-.columnss i{
+.leafish_columnss i{
     color: rgb(25, 0, 255);
     padding-right: 5px;
+    text-decoration: none;
+    list-style: none;
 }
-.column{
+.leafish_column{
     flex: 1;
     color: #fff;
     transition: 0.3s;
     margin-left: 5px;
+    text-decoration: none;
+    list-style: none;
 }
-.column2{
+.leafish_column2{
     flex: 1;
     color: #fff;
     transition: 0.3s;
     margin-left: 238px;
 }
-.columnss a{
+.leafish_columnss a{
    text-decoration: none;
    color: black;
    cursor: pointer;
    padding-left: 8px;
    font-weight: 200;
 }
-.columnss p{
+.leafish_columnss p{
     margin-bottom: 0!important;
 }
-
-.experience{
+.leafish_details{
+    display: flex;
+    font-weight: 200;
+}
+.leafish_details i{
+    color: #008cff;
+}
+.leafish_experience{
     float: left;
     margin: 20px;
 
 }
-.experience h1{
+.leafish_experience h1{
     border-bottom: 3px solid #008cff;
     width: 60%;
     color: #008cff;
     margin-top: 3px;
     font-size: 30px;
 }
-.experience h3{
+.leafish_experience h3{
     padding-top: 5px;
 }
-.experience h2{
+.leafish_experience h2{
     color: #008cff;
 }
-.heading{
+.leafish_heading{
     color: #008cff;
     font-style: italic;
 }
-.eduaction .Overview{
+.leafish_eduaction .Overview{
  margin-top: 7px;
 }
-.experience a{
+.leafish_experience a{
     text-decoration: none;
     margin-top: 15px;
     color: black;
@@ -114,79 +125,73 @@ li{
     padding-top: 5px;
     line-height: 1.5;
 }
-.voko{
+.leafish_voko{
     margin-top: 30px;
     color: black;
     font-size: 25px;
 }
-.date{
+.leafish_date{
     color: #008cff;
     font-style: italic;
 }
-.details{
-    display: flex;
-    font-weight: 200;
-}
-.details i{
-    color: #008cff;
-}
-.eduaction{
+
+.leafish_eduaction{
     position: relative;
     left: 20px;
     margin: 20px;
 }
-.eduaction h1{
+.leafish_eduaction h1{
     color: #008cff;
     border-bottom: 2px solid #008cff;
     width: 70%;
 }
-.eduaction h3{
+.leafish_eduaction h3{
     padding-top: 5px;
     font-weight: 100;
 }
-.eduaction p{
+.leafish_eduaction p{
     color: #000000b7;
     margin-bottom: 0!important;
 }
-.eduaction a{
+.leafish_eduaction a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.856);
     font-weight: 100;
     padding-left: 5px;
     font-style: italic;
 }
-.data{
+.leafish_data{
     padding-top: 5px;
     font-weight: 100;
 }
-.eduaction .date{
+.leafish_eduaction .date{
     color: #008cff;
 }
-.louisiana{
+.leafish_louisiana{
     color: black;
     margin-top: 20px;
     font-size: 22px;
     font-weight: 100;
 }
-.eduaction .bech{
+.leafish_eduaction .bech{
     font-weight: 100;
 }
-.eduaction .baton{
+.leafish_eduaction .baton{
     color: #00000073;
     font-weight: 100;
     margin: 2px;
 }
-.eduaction .awards{
+.leafish_awards{
     margin-top: 30px;
     width: 40%;
 }
-.eduaction .jp{
+.leafish_jp{
     margin-top: 30px;
 }
-.eduaction .carl{
+.leafish_carl{
     margin-top: 30px;
 }
-.eduaction .txt1{
+.leafish_txt1{
   margin-top: 2px;
   
 }
